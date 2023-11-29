@@ -2,9 +2,9 @@ package com.jenkinsproject;
 
 import org.testng.annotations.Test;
 
-public class jenkinclass18 {
+public class jenkinclassTest {
 
-	@Test
+	@Test(groups="smoke")
 	public static void test() {
 		System.out.println("sachinjenkin");
 
