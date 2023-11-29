@@ -1,8 +1,11 @@
 package com.jenkinsproject;
 
+import org.testng.annotations.Test;
+
 public class jenkinclass18 {
 
-	public static void main(String[] args) {
+	@Test
+	public static void test() {
 		System.out.println("sachinjenkin");
 
 	}
